@@ -1,10 +1,8 @@
 import React from "react";
 import  ReactDOM  from "react-dom";
-
+import App from "./App.js";
 ReactDOM.render(
   <>
-    <h2>
-    yash varshney
-  </h2>
+   <App />
   </>,document.getElementById('root')
 );
