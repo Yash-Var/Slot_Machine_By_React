@@ -5,6 +5,7 @@ import Hooks from "./Hooks.js";
 import Fetchtime from "./Fetchtime.js";
 import "./hooks.css";
 import CurrentTime from "./CurrentTime.js";
+import "./App.css";
 ReactDOM.render(
   <>
    <App />
