@@ -8,9 +8,9 @@ import CurrentTime from "./CurrentTime.js";
 import "./App.css";
 ReactDOM.render(
   <>
-   <App />
+   {/* <App />
    <CurrentTime />
    <Hooks />
-<Fetchtime />
+<Fetchtime /> */}
   </>,document.getElementById('root')
 );
