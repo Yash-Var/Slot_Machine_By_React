@@ -1,11 +1,11 @@
-import React from 'react';
-import  ReactDOM  from 'react-dom';
+// import React from 'react';
+// import  ReactDOM  from 'react-dom';
 // import './Events.css';
 
-const Events=()=>{
-    const bgChanges=()=>{
-        console.log("clicked");
-    }
+// const Events=()=>{
+//     const bgChanges=()=>{
+//         console.log("clicked");
+//     }
 //     return (
 //         <>
 //    <div style={{backgroundColor:"red"}}>
@@ -14,5 +14,5 @@ const Events=()=>{
 //    </div>
 //         </>
 //     );
-}
+// }
 // export default Events; 
