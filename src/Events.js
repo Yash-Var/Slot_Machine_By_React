@@ -22,7 +22,7 @@ const Events=()=>{
         }
         let newname;
         if(name==='click me'){
-            newname='yash varshney';
+            newname='yash varshney 👍]';
             setname(newname);
         }else{
             newname='click me';
