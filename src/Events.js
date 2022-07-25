@@ -10,29 +10,36 @@ const Events=()=>{
    const [name,setname]=useState(currname);
     const bgChanges=()=>{
         // console.log("clicked");
-        let newbg;
-        if(bg==='#8e44ad'){
+        // let newbg;
+        // if(bg==='#8e44ad'){
 
-             newbg='#34495e';
-            setbg(newbg);   
-        }else{
-             newbg='#8e44ad';
-            setbg(newbg);   
+        //      newbg='#34495e';
+        //     setbg(newbg);   
+        // }else{
+        //      newbg='#8e44ad';
+        //     setbg(newbg);   
 
-        }
-        let newname;
-        if(name==='click me'){
-            newname='yash varshney 👍]';
-            setname(newname);
-        }else{
-            newname='click me';
-            setname(newname);
-        }
+        // }
+        // let newname;
+        // if(name==='click me'){
+        //     newname='yash varshney 👍 ';
+        //     setname(newname);
+        // }else{
+        //     newname='click me';
+        //     setname(newname);
+        // }
+        let newbg='#34495e';
+        setbg(newbg);
+        setname("yash varshney");
+    }
+    const bgback=()=>{
+        setbg(purple);
+        setname("ram ")
     }
     return (
         <>
    <div style={{backgroundColor:bg}}>
-    <button onClick={bgChanges}>{name}</button>
+    <button onClick={bgChanges} onDoubleClick={bgback}>{name}</button>
 
    </div>
         </>
