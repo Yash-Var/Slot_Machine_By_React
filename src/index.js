@@ -8,9 +8,11 @@ import CurrentTime from "./CurrentTime.js";
 // import "./App.css";
 import Events from './Events';
 import './Events.css';
+import Forms from "./Forms.js";
 ReactDOM.render(
   <>
-  <Events />
+  <Forms />
+  {/* <Events /> */}
    {/* <App />
    <CurrentTime />
    <Hooks />
